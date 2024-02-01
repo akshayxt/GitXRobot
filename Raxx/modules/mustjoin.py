@@ -5,7 +5,7 @@ from Raxx import Raxx as app
 
 #--------------------------
 
-MUST_JOIN = "DAXXSUPPORT"
+MUST_JOIN = "Anvixtwaifu"
 #------------------------
 @app.on_message(filters.incoming & filters.private, group=-1)
 async def must_join_channel(app: Client, msg: Message):
